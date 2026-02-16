@@ -9,7 +9,7 @@ import redis
 
 DATABASE_URL = os.getenv(
     "DATABASE_URL",
-    "postgresql://postgres:vector9devdb@192.168.139.217:5432/openLLM",
+    "postgresql://postgres:vector9devdb@192.168.139.217:5432/postgres",
 )
 REDIS_URL = os.getenv(
     "REDIS_URL",
